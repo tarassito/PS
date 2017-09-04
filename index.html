@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="ua">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Оренда Sony Playstation. Прокат у Львові. </title>
     <link href="index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
-    <title>Оренда Sony Playstation. Прокат у Львові. </title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -15,10 +17,9 @@
                 <button class="dropbtn" id="dropbtn">Menu</button>
                 <div class="dropdown-content" id="dropbtn-list">
                     <a href="#about" class="smooth">Про нас</a>
-                    <a href="#it-education" class="smooth">Ігри</a>
-                    <a href="#my-projects" class="smooth">Умови</a>
-                    <a href="#hobbies" class="smooth">Побажання</a>
-                    <a href="#follow-me" class="smooth">Контакти</a>
+                    <a href="#games" class="smooth">Ігри</a>
+                    <a href="#conditions" class="smooth">Умови прокату</a>
+                    <a href="#contacts" class="smooth">Контакти</a>
                 </div>
             </div>
         </nav>
@@ -26,14 +27,43 @@
             <img id="logo" src="img/font.png" alt="logo picture">
         </div>
     </header>
-    
-    <div id="about" class="blue-font">
+    <div id="about">
         <img id="couple" src="img/couple-playing.jpg" alt="couple playing PS">
-        <p>Привіт , друже
-в нас ти можеш взяти на прокат приставку Sony PlayStation 4 у місті Львові , та чудово провести свій вечір з друзями або ж наодинці. Крім того, що взявши в оренду PS4 - це весело і приносить задоволення , відеоігри покращують твій психологічний стан :   знижують роздратування , розслабляють , підвищують самооцінку, покращують координацію, розвивають память  . Тому якщо хочеш відпочити вдома - не зволікай  - бери на прокат   PS4 . 
-В комплект входить  : консоль PS4, два джойстіка, HDMI шнур та шнур для живлення Playstation консолі .  </p>
-    
+        <p> Привіт , друже в нас ти можеш взяти на прокат приставку Sony PlayStation 4 у місті Львові , та чудово провести свій вечір з друзями або ж наодинці. Крім того, що взявши в оренду PS4 - це весело і приносить задоволення , відеоігри покращують твій
+            психологічний стан : знижують роздратування , розслабляють , підвищують самооцінку, покращують координацію, розвивають память . Тому якщо хочеш відпочити вдома - не зволікай - бери на прокат PS4 . В комплект входить : консоль PS4, два джойстіка,
+            HDMI шнур та шнур для живлення Playstation консолі . </p>
     </div>
-    
+    <div id="games" class="blue-font">
+    </div>
+    <div id="conditions">
+        <img src="img/two-men-playing.jpg" alt="two men playing PS">
+        <ol>Умови прокату SP4 дуже прості :
+            <li> Перший день оренди - 200 грн, наступні - 100 грн. </li>
+            <li> Завдаток - 1000 грн та фото або копія паспорта/водійського посвідчення</li>
+            <li> Доставка приставки по місту - безкоштовно</li>
+        </ol>
+    </div>
+    <div id='contacts'>
+        <h1>Контакти</h1>
+        <form id="form">
+            <fieldset>
+                <input type="text" id="name" placeholder="Ім'я" required>
+                </br>
+                <input type="email" id="mail" placeholder="E-mail">
+                </br>
+                <input type="text" id="mail" placeholder="Телефон">
+            </fieldset>
+            <fieldset>
+                <textarea rows="5" cols="50" placeholder="Які ігри Ви би хотіли бачити в прокаті?"></textarea>
+            </fieldset>
+            <input type="submit" id="submit" value="Надіслати">
+
+        </form>
+        
+    </div>
+    <div id='phone'>
+            <p>098-28-3-4855</p>
+        </div>
 </body>
+
 </html>

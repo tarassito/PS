@@ -1,7 +1,7 @@
 body {
     max-width: 800px;
     margin: 0 auto;
-   }
+}
 
 nav {
     display: flex;
@@ -13,30 +13,89 @@ nav a {
     margin: 0 5px 0 5px;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: blue;
     font-family: 'Kelly Slab', cursive;
     font-size: 1em;
 }
+
 #logo {
     width: 100%
 }
 
 p {
     color: white;
+    margin-left: 15px;
+}
+#phone p { 
+    font-size: 40px;
+    margin: 0 auto;
+    width: 300px;
 }
 
-#about{
+h1 {
+    margin: 0 0 0 150px;
+    color: white;
+    margin-bottom: 30px;
+}
+h2 {
+    color: white;
+    size: 40px;
+}
+
+#about,
+#contacts {
     background-image: url('img/right.jpg');
     height: 400px;
     margin-top: -20px;
     position: relative;
 }
-#couple{
+
+#couple {
     float: right;
-   margin-left: 10px;
-   
+    margin-left: 10px;
+
 }
+
+.blue-font {
+    background-color: #30679f;
+    height: 400px;
+}
+
+#conditions {
+    background-image: url('img/left.jpg');
+    height: 400px;
+    margin-top: -20px;
+    position: relative;
+}
+
+#conditions img {
+    float: right;
+
+}
+
+#conditions ol {
+    color: white;
+    margin-right: 20px;
+    float: right;
+}
+
+fieldset {
+    width: 100px;
+    margin-left: 10px;
+}
+#sumbmit{
+    margin: 0 auto;
+}
+#phone{
+    background-color: #30679f;
+    height: 50px;
+    margin: 0;
+}
+
+
+
 /*.dropbtn {
         background-color: #7c8c99;
         color: white;
@@ -74,9 +133,9 @@ p {
     .dropdown:hover .dropbtn {
         background-color: #3e8e41;
     }*/
-    
-    @media screen and (min-width:419px) {
+
+@media screen and (min-width:419px) {
     .dropbtn {
         display: none;
     }
-    }
+}
